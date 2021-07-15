@@ -1,0 +1,105 @@
+body{
+    background-image: url(/IMG/Fondo.png);
+    background-repeat: repeat;
+    background-size: 50%;
+}
+
+div.barra{
+    background-color: lightseagreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid black;
+}
+div.inicio:hover{
+    background-color: lightskyblue;
+    
+    
+}
+div.fotos:hover{
+    background-color: lightskyblue;
+    
+}
+div.contacto:hover{
+    background-color: lightskyblue;
+    
+    
+}
+div.inicio:active{
+    border: outset skyblue;
+}
+div.fotos:active{
+    border: outset skyblue;
+}
+div.contacto:active{
+    border: outset skyblue;
+}
+a.ini{
+    text-decoration: none;
+    color: black;
+}
+a.ini:hover{
+    text-decoration: none;
+    color: black;
+}
+
+a.ini:visited{
+    text-decoration: none;
+    color: black;
+}
+a.ini:active{
+    text-decoration: none;
+    color: black;
+}
+a.fot{
+    text-decoration:none;
+    color: black;
+}
+a.fot:hover{
+    text-decoration: none;
+    color: black;
+}
+a.fot:visited{
+    text-decoration: none;
+color: black;
+}
+a.fot:active{
+    text-decoration: none;
+    color: black;
+}
+a.cont{
+    text-decoration: none;
+    color: black;
+}
+a.cont:active{
+    text-decoration: none;
+    color: black;
+    
+}
+a.cont:visited{
+    text-decoration: none;
+    color: black;
+}
+a.cont:hover{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    border: solid black;
+    background-color: burlywood;
+}
+
+img.card-img-top{
+    width: 250px;
+    height: 250px;
+}
+footer{
+    font-size: 80%;
+    color: rgb(71, 70, 70);   
+}
+div.cartas{
+    display: flex;
+    justify-content: space-between;
+    
+}
